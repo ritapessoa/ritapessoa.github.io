@@ -1,9 +1,9 @@
 .introducao {
   max-width: 1200px;
-  padding: 40px 20px;
+  padding: 60px 20px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  /* grid-template-columns: 1fr 2fr; */
   gap: 100px;
   align-items: center;
 }
@@ -32,6 +32,18 @@
   color: #525252;
 }
 
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 60ch;
+  color: #525252;
+  margin-bottom: 120px;
+}
+
+.experiencia-texto strong {
+  color: #141414;
+}
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
@@ -40,7 +52,7 @@
 
 @media (max-width: 800px) {
   .introducao {
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 40px;
   }
   .introducao h1 {
@@ -58,11 +70,11 @@
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .introducao {
     grid-template-columns: 1fr;
   }
   .introducao img {
     display: none;
   }
-}
+} */
